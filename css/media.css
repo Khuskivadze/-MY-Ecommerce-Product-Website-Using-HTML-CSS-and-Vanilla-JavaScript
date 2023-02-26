@@ -1,0 +1,77 @@
+@media screen and (min-width: 500px) {
+    .nav.brand{
+        font-size: 1.5rem;
+    }
+    .nav-icons {
+        display: flex;
+
+    }
+    .nav-icons span {
+        color: #fff;
+        font-size: 1.3rem;
+        padding: 05rem 1rem;
+        cursor: pointer;
+        transition: var( --transition);
+
+    }
+    .nav-icons span:hover{
+        opacity: 0.8;
+    }
+    .header-banner{
+        text-align: left;
+
+    }
+    .header-banner h3{
+        font-size: 1.3rem;
+
+    }
+    .header-banner-title{
+        font-size: 4rem;
+    }
+
+}
+@media screen and (min-width: 992px) {
+    .navbar-toggler {
+        display: none;
+    }
+    .nav-btns{
+        display: flex;
+    }
+    .nav-btns button{
+        display: inline-block;
+        font-size:0.9rem;
+        font-weight: 300;
+        opacity: 0.9;
+        padding: 0.4rem 0;
+        border-width: 0.5px;
+        border-style: solid;
+        margin: 0 0.5rem;
+        width: 100px;
+        transition:  var( --transition);
+    }
+    .nav-btns button:hover{
+        opacity: 1;
+    }
+    .nav-btns button:first-child{
+          border-color: var(--emperor);
+          background: var( --emperor);
+          color: #fff;
+    }  
+    .nav-btns button:first-child:hover{
+        border-color: #fff;
+        background: transparent;
+    }
+    .nav-btns button:last-child{
+        border-color: #fff;
+        background: transparent;
+        color: #fff;
+    }
+    .nav-btns button:last-child:hover{
+        border-color: var(--emperor);
+        background: var(--emperor);
+    }
+
+    
+    
+    
+}

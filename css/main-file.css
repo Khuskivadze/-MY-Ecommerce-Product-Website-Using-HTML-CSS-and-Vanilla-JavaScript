@@ -186,3 +186,237 @@ button{
     font-weight: 300;
 }
 /* features */
+/* Products */
+
+.product{
+    padding: 5rem 0;
+}
+.product-title{
+    text-align: center;
+    font-size: 2rem;
+    font-weight: 800;
+    text-transform: uppercase;
+}
+.product-item{
+    border-radius: 1rem;
+    margin: 5rem 0;
+    padding: 1.5rem 0;
+    text-align: center;
+    position: relative;
+    transition: var(--transition);
+}
+.product-item:hover{
+    background: #f1f1f1;
+}
+.product-item:first-of-type{
+    margin-top: 2rem;
+}
+ 
+.product-item img{
+    width: 160px;
+    margin: 0 auto;
+}
+.product-info{
+    padding: 2rem;
+}
+.product-info h4{
+    font-size: 1.2rem;
+    font-weight: 800;
+}
+.ratings span{
+    color: var(--emperor);
+}
+.product-info .text{
+    color: var(--emperor);
+    width: 90%;
+    margin-right: auto;
+    margin-left: auto;
+}
+.new-btn{
+    position: absolute;
+    top: 0.5rem;
+    left: 0.5rem;
+    font-size: 1rem;
+    border: none;
+    background: var(--brown);
+    color: #fff;
+    padding: 0.5rem 1.6rem;
+    border-radius: 5px;
+    transition: var(--transition);
+}
+.new-btn:hover{
+    opacity: 0.8;
+}
+.add-btn{
+    border-radius: 1.3rem;
+    border: none;
+    padding: 0.7rem 1.8rem;
+    background: var(--emperor);
+    font-size: 1rem;
+    color: #fff;
+    position: absolute;
+    left: 50%;
+    bottom: 0;
+    transform: translate(-50%, 50%);
+    transition: var(--transition);
+}
+.add-btn:hover{
+    background: #000;
+}
+
+/* Products */
+/* order */
+
+.order{
+    padding: 5rem 0;
+    background: var(--emperor);
+}
+.order-content{
+    padding: 1.5rem;
+    text-align: center;
+}
+.order-title{
+    text-transform: capitalize;
+    font-size: 2.7rem;
+    line-height: 1.2;
+    color: #fff;
+}
+.order .btn-trans{
+    margin-top: 1rem;
+}
+.order .btn-trans:hover{
+    background: #fff;
+    color: var(--emperor);
+}
+/* order */
+
+/* revie]ws */
+.reviews{
+    padding: 5rem 0;
+}
+.reviews-wrapper{
+    position: relative;
+    height: 400px;
+}
+.review-item{
+    text-align: center;
+    padding: 3rem;
+}
+.review-title{
+    font-size: 2.5rem;
+    text-transform: uppercase;
+    font-weight: 400;
+}
+.reviews .text{
+    font-size: 1rem;
+    color: var(--emperor);
+    margin: 2rem 0;
+}
+.review-item h3{
+    font-size: 1.1rem;
+    font-weight: 300;
+    letter-spacing: 4px;
+}
+.prev-btn, .next-btn{
+    position: absolute;
+    font-size: 1.5rem;
+    width: 40px;
+    border-radius: 50%;
+    height: 40px;
+    border: none;
+    background: var(--brown);
+    color: #fff;
+    transition: var(--transition);
+}
+.prev-btn{
+    left: 0;
+    top: 50%;
+    transform: translateY(-50%);
+}
+.next-btn{
+    right: 0;
+    top: 50%;
+    transform: translateY(-50%);
+}
+.prev-btn:hover,
+.next-btn:hover{
+    opacity: 0.8;
+}
+.review-item{
+    display: none;
+}
+.activeSlide{
+    display: block;
+}
+/* reviews */
+
+/* newsletter */
+.newsletter{
+    height: 60vh;
+    background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(../assets/background-img-2.png) center/cover no-repeat fixed;
+    padding: 5rem 0;
+    text-align: center;
+}
+.newsletter-title{
+    font-size: 2rem;
+    text-transform: uppercase;
+    color: #fff;
+    margin-bottom: 2rem;
+}
+.form-control{
+    font-size: 1rem;
+    background: transparent;
+    padding: 0.8rem 1rem;
+    border: 1.5px solid var(--brown);
+    color: var(--brown);
+    font-weight: 200;
+}
+.form-control::placeholder{
+    color: var(--brown);
+}
+.form-control:focus{
+    outline: none;
+}
+.form-control, .newsletter .btn-trans{
+    width: 100%;
+    margin: 1rem 0;
+}
+.newsletter .btn-trans{
+    background: var(--brown);
+    border-color: var(--emperor);
+    font-size: 1.1rem;
+}
+.newsletter .btn-trans:hover{
+    background: #fff;
+    color: var(--emperor);
+}
+
+
+.footer{
+    text-align: center;
+    background: #000;
+}
+.footer-wrapper{
+    padding: 5rem 0;
+}
+.footer-wrapper div{
+    margin: 2.5rem 0;
+}
+.footer-links li{
+    margin: 0.6rem 0;
+}
+.footer-links li a{
+    text-transform: uppercase;
+    font-weight: 200;
+    opacity: 0.9;
+    color: #f1f1f1;
+    transition: var(--transition);
+}
+.footer-links li a:hover{
+    color: var(--brown);
+}
+.footer-text{
+    padding: 1.7rem 0;
+}
+
+
